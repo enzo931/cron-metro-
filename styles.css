@@ -1,0 +1,71 @@
+/* Resetando o estilo padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0f7fa;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cronometro {
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .cronometro h1 {
+    font-size: 2rem;
+    color: #00796b;
+    margin-bottom: 20px;
+  }
+  
+  .relógio img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+  #display {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #00796b;
+    margin: 20px 0;
+  }
+  
+  .botoes button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #00796b;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .botoes button:hover {
+    background-color: #004d40;
+  }
+  
+  .botoes button:active {
+    background-color: #00332d;
+  }
+  
